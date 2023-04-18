@@ -1,0 +1,66 @@
+.main-article {
+    font-size: 60px;
+    border: mediumpurple 5px dotted;
+    color: grey;
+}
+
+.article-header {
+    font-size: 2.5em;
+    border: inherit;
+}
+
+.article-content {
+    font-size: initial;
+}
+
+.article-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img {
+    /* display: block; */
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: bottom;
+    border: 3px solid hotpink;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 30px auto;
+}
+
+.span {
+    display: block;
+    width: 300px;
+    border: 3px green solid;
+    padding: 15px;
+    margin: 40px;
+}
+
+.div {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    border: 3px solid sienna;
+    margin: 30px auto;
+}
+.align-center {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.wrapper {
+    width: 500px;
+    /* height: 500px; */
+    min-height: 500px;
+    border: 3px solid limegreen;
+}
+.inner {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: inherit;
+    border-color: blueviolet;
+}
